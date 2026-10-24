@@ -1,0 +1,601 @@
+id,code,credits,department_id,description,title
+1,VPGW-307,1,14,Online,Calculus In
+2,PSID-641,3,9,Lecture,Laboratory Ethics
+3,LYNS-749,4,13,Lecture,Theory Methods Topics
+4,PQOC-920,3,5,Lecture,Advanced Statistics
+5,NHKK-071,1,5,Seminar,In Statistics
+6,EMDA-820,3,2,Lecture and lab,Laboratory Topics
+7,FKQT-993,1,11,Lecture,Ethics History
+8,ERTQ-324,4,3,Seminar,Research Of
+9,MTCG-208,3,11,Seminar,Algorithms Introduction Applied Ethics
+10,IJYF-889,2,1,Lecture and lab,Ethics Calculus
+11,YMGF-052,2,2,Lecture and lab,Modern Analysis Seminar
+12,BWCA-481,4,6,Seminar,Ethics Methods Foundations Research
+13,NEXP-717,3,1,Studio,Writing Methods Principles
+14,RRBA-273,4,1,Lecture and lab,Algorithms Research Introduction Of
+15,URSN-064,2,8,Lecture and lab,Calculus Foundations
+16,OTTF-821,3,3,Lecture,Research Laboratory
+17,KRAC-943,3,2,Studio,Research Analysis Seminar Systems
+18,ABLO-358,4,2,Lecture and lab,To Of Foundations
+19,TELV-550,3,10,Seminar,Systems Design Applied
+20,LSMD-919,3,12,Lecture,Analysis Design
+21,DDWW-313,4,14,Lecture and lab,Advanced Statistics Design In
+22,ACBD-173,4,5,Seminar,Principles Ethics
+23,QGUV-023,3,2,Lecture,Statistics Algorithms Ethics Introduction
+24,FLUP-852,3,6,Lecture,Advanced Seminar Modern Of
+25,ZNMJ-761,4,12,Lecture,Advanced Laboratory
+26,EARZ-882,4,12,Lecture,To Theory Foundations History
+27,XZSK-681,4,1,Seminar,Applied Calculus Theory
+28,BSFK-075,4,1,Lecture,Theory To
+29,BNCU-896,3,2,Seminar,Design Systems Introduction Methods
+30,RQDP-545,3,1,Lecture and lab,Advanced In Theory Foundations
+31,OHFK-025,1,1,Lecture and lab,Analysis Topics In Of
+32,SSHA-138,2,12,Lecture,Analysis Design Of Topics
+33,NZBU-880,2,1,Lecture,Advanced Laboratory
+34,XEGX-754,1,1,Lecture,Analysis History Methods Design
+35,PUNE-015,1,12,Lecture,Algorithms Introduction Applied Writing
+36,LFHM-362,4,7,Lecture,Modern Theory Algorithms
+37,EOPE-814,4,2,Seminar,Topics To
+38,OMBV-616,2,6,Seminar,Topics In History Applied
+39,QOQN-390,2,12,Lecture,Modern Theory Applied Calculus
+40,DGPA-279,3,7,Studio,Research Seminar Introduction Modern
+41,NLXB-459,2,4,Lecture,Writing Methods
+42,ETLM-598,1,9,Seminar,Statistics Seminar Ethics Of
+43,FTXS-326,3,2,Lecture,Introduction Seminar
+44,HYFK-462,2,8,Lecture and lab,Principles Calculus
+45,AHDN-328,4,13,Studio,Systems Introduction Topics
+46,BSAN-641,4,12,Lecture,Writing To Research
+47,RCTO-912,2,13,Lecture,Introduction Ethics Advanced
+48,BBTV-410,2,6,Lecture,Systems Modern To Ethics
+49,PFUB-335,4,1,Seminar,Analysis Statistics Modern Introduction
+50,DSAM-703,3,7,Online,Modern Theory
+51,LLTY-875,2,10,Lecture,Applied To Principles
+52,IHUH-095,3,1,Lecture,Introduction Theory
+53,TMSX-593,3,1,Lecture and lab,In Theory
+54,CZWZ-603,4,6,Lecture,Modern Principles Writing Statistics
+55,RATL-161,3,10,Lecture,Research Topics Theory Foundations
+56,DXIE-849,4,3,Lecture and lab,Of Writing
+57,XQRF-163,4,8,Lecture,Modern Statistics Ethics Design
+58,CJZP-146,4,12,Seminar,To Systems
+59,FEKK-915,2,1,Seminar,Foundations To In Modern
+60,NPGA-140,4,14,Lecture,Laboratory Theory Modern
+61,BJKN-995,3,1,Lecture,Principles To Algorithms Calculus
+62,LSMX-682,4,10,Lecture,History Research Principles Methods
+63,UZGR-272,3,9,Lecture,Introduction Applied Laboratory Calculus
+64,TIXN-706,2,3,Lecture,Methods Applied
+65,RCLO-509,4,4,Lecture,Principles Laboratory Writing
+66,XWFE-336,4,11,Lecture and lab,Topics Ethics Design
+67,SDKE-388,2,1,Lecture,Algorithms Statistics Writing
+68,TNMN-390,4,7,Seminar,Systems Modern In
+69,FLLB-674,4,1,Lecture,Statistics Algorithms
+70,RIGT-304,4,14,Lecture,Research Introduction
+71,RZGA-714,3,1,Lecture,Design Calculus Analysis
+72,JQDP-641,4,6,Lecture,Foundations Principles Systems
+73,SUVM-474,3,4,Lecture and lab,Algorithms Theory Principles
+74,JXRP-037,4,6,Lecture,Design Research To
+75,RXTX-664,2,1,Lecture and lab,Topics Calculus Foundations In
+76,FDMY-797,4,1,Online,Methods Writing
+77,IYIQ-983,3,3,Lecture,History Applied Algorithms Of
+78,KMNN-090,4,1,Lecture,History Algorithms Modern Advanced
+79,JZTU-830,3,3,Seminar,Principles Analysis Introduction
+80,GGVG-696,2,6,Seminar,Seminar Research
+81,QLNJ-047,4,4,Lecture,Modern Systems
+82,PDAB-097,2,13,Online,Of Writing In Analysis
+83,RNXW-986,3,7,Studio,Algorithms Introduction Methods
+84,XEZT-778,3,4,Seminar,Research In Theory
+85,PEON-154,3,4,Lecture,Research Methods
+86,AHJH-065,2,1,Lecture,Ethics Writing
+87,NSYT-056,2,6,Lecture and lab,Analysis Foundations Ethics Calculus
+88,RYWF-363,2,3,Lecture and lab,In Modern
+89,HXXS-244,2,3,Lecture,Foundations Advanced History Introduction
+90,MHQU-458,3,11,Seminar,Seminar Introduction
+91,WETJ-501,4,13,Seminar,Algorithms Introduction
+92,XIFM-802,2,2,Online,Statistics To Design Advanced
+93,QBIN-572,4,4,Lecture,Research To Ethics
+94,OZIK-131,4,1,Seminar,Principles Introduction
+95,IHJV-255,3,12,Lecture and lab,Research Calculus Ethics
+96,EYQD-772,1,3,Online,Of Algorithms Methods
+97,HJVA-201,4,11,Lecture and lab,Algorithms History Theory Advanced
+98,HTWR-012,3,4,Lecture and lab,Applied Ethics Laboratory
+99,ADEU-403,3,1,Lecture,Analysis Seminar
+100,ZJAG-685,3,1,Lecture,Statistics Of Ethics
+101,VFAQ-773,4,1,Lecture and lab,To Topics Laboratory Introduction
+102,RLCJ-636,2,7,Online,Systems Modern
+103,SWUG-647,2,6,Online,In Modern Statistics Seminar
+104,IIJJ-834,3,1,Lecture,To Methods Introduction
+105,POSD-291,2,5,Lecture and lab,Writing Topics
+106,UAQM-784,1,1,Lecture and lab,History Writing Modern
+107,IKNF-519,2,4,Lecture and lab,History To Ethics
+108,OCTH-299,3,12,Lecture,Algorithms Laboratory Design
+109,MNTV-830,1,10,Seminar,Introduction Calculus Advanced Principles
+110,LTGX-623,4,1,Lecture and lab,Calculus History
+111,BYRR-294,3,9,Lecture and lab,Design Of Seminar Ethics
+112,XDXA-783,4,10,Studio,Algorithms Statistics To Applied
+113,WJSM-289,4,14,Lecture,Algorithms Of
+114,THOA-093,2,4,Lecture,History Calculus Algorithms Laboratory
+115,GXHV-936,4,1,Seminar,Analysis Topics Design Advanced
+116,YVCL-533,4,1,Online,Design Theory
+117,FDGK-404,4,8,Lecture,To Advanced In Applied
+118,PSFX-889,4,7,Lecture,Research Seminar Advanced
+119,VRML-240,3,3,Lecture and lab,Research Analysis Calculus
+120,THVQ-335,3,1,Lecture,Principles Applied
+121,ZARD-331,1,13,Lecture and lab,Seminar Methods Foundations
+122,QTDZ-368,3,1,Lecture,Ethics Introduction
+123,VFQK-845,3,1,Lecture,In Advanced
+124,NCZL-052,4,2,Lecture,Seminar Laboratory History Of
+125,VHDL-811,4,3,Seminar,History Theory
+126,CBOB-706,3,1,Lecture,Systems Applied Topics
+127,AVTS-785,2,12,Lecture,Laboratory Algorithms Principles Statistics
+128,BAMJ-481,4,2,Lecture and lab,Statistics Writing
+129,MZXR-857,3,2,Seminar,Statistics Design Algorithms Analysis
+130,HGSL-484,2,3,Seminar,Seminar Principles
+131,ETAS-220,3,2,Lecture,History Theory Seminar Advanced
+132,WKLN-891,3,11,Seminar,Statistics Writing Systems Algorithms
+133,ZBCV-501,1,6,Lecture,Principles Laboratory
+134,BOVK-031,2,5,Lecture,Foundations Design Introduction
+135,XKHL-692,3,1,Online,Applied Seminar Algorithms
+136,WXIO-301,4,12,Lecture,History Systems Design Methods
+137,JWRP-033,1,6,Lecture and lab,Algorithms History Analysis
+138,HGBJ-422,4,2,Lecture,Principles Seminar Modern
+139,GADJ-045,3,8,Seminar,Topics Laboratory Calculus Research
+140,RSQP-753,1,2,Seminar,Algorithms Calculus Theory
+141,IRRH-467,3,1,Seminar,Systems Advanced In
+142,DSXP-792,4,9,Lecture and lab,Advanced Analysis
+143,XTCJ-548,2,8,Lecture,Seminar History Foundations Research
+144,RNXV-960,2,2,Lecture and lab,Design Foundations Systems Algorithms
+145,PQLE-072,3,2,Lecture,Seminar Ethics Principles Advanced
+146,AETJ-462,3,6,Lecture,Applied Advanced History Design
+147,HMRH-739,3,4,Lecture and lab,Algorithms Foundations
+148,IVIA-748,4,13,Lecture,Principles Analysis Topics Design
+149,CRWK-670,3,1,Lecture,Writing Seminar
+150,XHDS-818,4,1,Lecture,Writing Principles Theory
+151,AFEI-471,4,2,Lecture,Design Modern
+152,AVDT-753,3,1,Lecture,Research Systems History In
+153,EGBW-248,2,3,Lecture,Methods Theory
+154,BLSS-898,3,3,Lecture and lab,Advanced In Principles Writing
+155,GAGU-045,2,1,Lecture,Statistics Topics Modern Ethics
+156,XPKU-460,1,11,Lecture,Methods To In
+157,SCBA-953,1,1,Lecture,Seminar Modern
+158,RDQG-616,4,14,Lecture,Foundations Methods
+159,WVYM-506,3,3,Seminar,Methods In Of Laboratory
+160,SVPC-725,2,1,Lecture,Laboratory Modern Introduction
+161,FUPK-628,2,7,Online,Design In Advanced
+162,CDWM-981,3,13,Lecture,Advanced Theory
+163,JHKC-147,4,2,Lecture,Laboratory Theory Introduction
+164,URIG-267,4,1,Lecture,Topics Statistics Algorithms
+165,SLNR-646,3,2,Lecture,Calculus Research Seminar Analysis
+166,BMMT-884,4,11,Seminar,Introduction Algorithms Statistics Seminar
+167,IPMF-931,3,9,Lecture,Advanced Seminar
+168,HEOG-773,2,2,Lecture and lab,Applied Seminar
+169,EKRQ-308,3,1,Online,Applied In Advanced Research
+170,LAHR-316,3,12,Lecture and lab,Statistics Of
+171,TIKK-476,4,3,Lecture,In Theory Research
+172,ALWT-550,3,8,Lecture and lab,Modern Laboratory Design Seminar
+173,OFOP-904,3,2,Lecture and lab,Research Ethics Writing
+174,GENA-930,4,14,Lecture,Writing Applied
+175,PQZY-386,4,2,Seminar,Systems Research Principles
+176,JDQH-511,4,8,Lecture,Writing Theory Ethics
+177,GVYV-007,4,8,Studio,Laboratory Algorithms Foundations
+178,JKGI-745,4,5,Seminar,Of Statistics Systems
+179,OCOM-423,3,5,Lecture,Introduction Of Seminar Modern
+180,HDUF-195,3,3,Lecture and lab,Analysis In Introduction Foundations
+181,IJVR-110,4,8,Lecture,Statistics Analysis Modern Introduction
+182,MGGB-908,4,4,Lecture and lab,Algorithms Research Introduction
+183,HYGM-443,4,14,Online,Algorithms Seminar Theory
+184,GEZS-998,3,9,Lecture,Calculus Modern Research Design
+185,IYHF-270,2,1,Lecture,Algorithms Design Statistics
+186,OEUV-940,4,10,Seminar,Laboratory Writing
+187,YULS-019,1,10,Lecture,Of Topics Research Systems
+188,GOWE-105,2,6,Seminar,Methods Analysis
+189,OLRN-470,3,11,Lecture,Research Foundations Systems
+190,XUOA-216,4,7,Lecture,Design Methods Research Modern
+191,PMHT-949,1,2,Studio,Methods In Modern
+192,UCNC-446,4,8,Seminar,Methods Applied History Foundations
+193,SHKF-641,3,5,Seminar,Algorithms Research
+194,OIXJ-693,2,3,Lecture,Introduction Modern Writing
+195,EINC-858,2,3,Seminar,Algorithms Introduction Design
+196,CBMX-504,4,1,Lecture,Design Of Modern
+197,BEYC-737,3,1,Online,Ethics Theory
+198,TREN-854,2,4,Lecture,Design History Advanced In
+199,VVBR-223,3,1,Seminar,Ethics Design Topics
+200,XBVA-838,4,10,Seminar,Writing Topics Advanced
+201,IHAT-444,2,5,Lecture,Algorithms Modern
+202,JKNK-326,3,1,Lecture,Systems Topics Theory
+203,IGZL-759,3,11,Lecture,Research Laboratory
+204,RULU-732,4,5,Lecture and lab,Topics Analysis History Calculus
+205,WNIN-037,4,1,Lecture,Foundations Design Algorithms Introduction
+206,BSHC-714,3,7,Lecture and lab,Calculus Design Applied
+207,LRNQ-481,2,8,Lecture and lab,Systems Introduction Methods Calculus
+208,XADQ-247,3,3,Lecture and lab,Theory Algorithms
+209,MMIN-031,4,3,Lecture and lab,Systems Seminar
+210,MLSF-509,4,5,Lecture,In Advanced
+211,FEUW-941,4,4,Online,Seminar History Topics
+212,OCYP-030,4,14,Seminar,Topics Methods
+213,HOET-324,2,2,Lecture,Topics Foundations To History
+214,RBLO-446,4,8,Lecture and lab,Principles Calculus Writing
+215,AEPG-793,4,11,Lecture,Analysis Writing Foundations History
+216,VGFG-190,4,10,Lecture,Applied Systems Theory To
+217,QNLE-102,2,1,Lecture,Calculus Foundations
+218,XOAO-476,2,1,Lecture and lab,Calculus Design
+219,QIAS-210,2,1,Lecture and lab,Seminar Laboratory
+220,TSIC-269,4,2,Lecture,Design Applied Research Analysis
+221,TVID-035,2,3,Lecture,Seminar Design
+222,TGHG-225,3,1,Seminar,Calculus Research
+223,NROA-252,1,1,Lecture,Introduction In Of
+224,STBJ-002,3,1,Lecture,Ethics In
+225,MGDT-640,4,8,Lecture and lab,Foundations Of Advanced Topics
+226,FHUA-157,3,5,Seminar,Systems Ethics Theory
+227,KVPY-326,3,1,Lecture,Topics Ethics
+228,UZNF-007,3,1,Lecture,Research Statistics Methods Design
+229,YLYR-142,2,8,Lecture and lab,Principles Topics Foundations Research
+230,MWDT-578,4,1,Lecture,Seminar Introduction Ethics Algorithms
+231,JIUW-175,1,10,Lecture,To Laboratory Research
+232,EKDJ-670,2,1,Lecture and lab,Algorithms Calculus Laboratory
+233,GTKM-929,3,6,Lecture and lab,Ethics Methods
+234,EEMJ-516,4,1,Online,Design Applied Principles
+235,WOWH-056,4,13,Online,Introduction Algorithms
+236,ZXUH-227,4,6,Seminar,Principles To Foundations
+237,EUOL-215,2,1,Studio,Seminar Analysis Statistics
+238,LFTU-382,2,1,Lecture,To Methods Advanced
+239,HEBM-908,3,1,Lecture,Statistics Topics Laboratory Seminar
+240,DYVE-729,4,1,Lecture,Calculus History Introduction
+241,DIZB-881,3,6,Online,Modern Principles Algorithms
+242,XGBL-882,3,1,Studio,Foundations History
+243,DNKP-407,2,14,Lecture and lab,History Seminar To Laboratory
+244,ENSL-060,3,5,Lecture,Systems Methods
+245,YGLQ-602,2,5,Lecture,Theory Research Analysis
+246,DCUL-836,2,1,Lecture,Statistics Theory
+247,FIPV-957,2,10,Seminar,Foundations Advanced Research
+248,SPMT-918,2,1,Lecture and lab,Calculus Topics
+249,EMLQ-602,3,6,Lecture,Analysis Seminar
+250,YMQR-531,4,4,Lecture and lab,Calculus Algorithms
+251,DCDZ-504,2,2,Lecture,Methods Design
+252,PNNB-206,3,12,Lecture,Analysis Systems Ethics Modern
+253,EIND-634,2,1,Lecture,Foundations Design
+254,APKH-055,3,1,Lecture,Modern Methods Topics
+255,XVCO-640,4,13,Online,Research Topics Seminar
+256,JBKL-413,3,6,Lecture,Advanced Algorithms Laboratory
+257,CHOE-451,3,7,Lecture,Calculus Systems Ethics
+258,YPCY-749,2,7,Lecture,Laboratory Algorithms
+259,YJVF-192,4,1,Lecture and lab,Analysis To Theory
+260,EKYU-809,2,1,Lecture,Theory Principles Systems Laboratory
+261,ZRWW-205,4,10,Lecture,Foundations Seminar Advanced
+262,XVJX-748,3,1,Lecture,Research History Applied Advanced
+263,SBCI-583,2,6,Seminar,Seminar Methods
+264,SAWS-821,4,1,Lecture,Theory Principles
+265,OJMJ-647,3,3,Seminar,Systems Modern Foundations Principles
+266,XBPY-339,2,9,Seminar,Calculus Research Topics
+267,GOWR-873,3,9,Lecture,Ethics Statistics Analysis Algorithms
+268,SYCT-514,4,3,Lecture,Systems Seminar Topics History
+269,MUQR-645,4,3,Lecture,Principles Writing Applied
+270,RTQP-932,3,1,Lecture,Principles Calculus Topics Advanced
+271,RLWE-206,4,4,Lecture and lab,Writing Analysis
+272,DNND-218,3,9,Lecture,Design Principles
+273,NUSC-591,4,10,Lecture,In Statistics Principles Modern
+274,KKTF-835,4,4,Lecture,Principles Applied
+275,HLPB-012,3,6,Lecture and lab,Principles To In Modern
+276,HEBZ-523,2,7,Seminar,Topics In
+277,NIOQ-845,4,3,Seminar,Introduction Calculus Writing
+278,AEUU-750,4,3,Lecture,Topics Ethics Methods Design
+279,EKQE-451,2,4,Seminar,Modern To Calculus
+280,ZIZY-323,2,2,Seminar,Analysis Foundations In Calculus
+281,RDVU-245,4,1,Online,Methods Topics
+282,SPFS-055,3,8,Online,Analysis Writing Theory
+283,IYBF-681,4,3,Lecture,Modern Calculus Analysis
+284,RXKM-964,4,1,Online,Topics Writing
+285,BMQA-757,1,1,Lecture and lab,Design Ethics Principles
+286,LSUI-930,4,5,Lecture,Applied Analysis Algorithms Laboratory
+287,UAQN-253,2,3,Seminar,To In
+288,XFPD-339,4,4,Lecture,Principles Modern
+289,ANLD-281,3,6,Lecture and lab,Modern Algorithms Topics Foundations
+290,MDON-478,3,12,Lecture,Analysis Calculus Ethics Methods
+291,VCQW-239,3,1,Lecture,Principles Writing Seminar Topics
+292,QIUV-245,4,2,Lecture and lab,Ethics Of Systems
+293,HAOQ-560,3,14,Lecture,History Methods
+294,PWPA-748,4,13,Lecture and lab,Principles Foundations
+295,KAGA-685,2,4,Seminar,Statistics Writing Algorithms Design
+296,IVPX-684,4,1,Seminar,Laboratory Theory
+297,UXLX-916,4,6,Lecture,History Topics Theory Algorithms
+298,UQLW-164,2,1,Lecture,Systems Seminar Principles
+299,FJWN-514,3,3,Lecture,Research Of Seminar Foundations
+300,IQZZ-029,1,2,Lecture and lab,Design In Ethics
+301,MYAP-635,3,13,Lecture,Algorithms Research Methods Of
+302,LAWE-193,4,1,Lecture,Applied Laboratory
+303,AZWD-707,3,9,Online,Laboratory Principles Seminar Design
+304,HQOC-539,3,2,Lecture,Introduction Principles
+305,HRGW-791,4,3,Lecture,Statistics Writing Topics
+306,AMOW-795,2,12,Lecture and lab,Methods Foundations Statistics Modern
+307,EINE-197,4,10,Seminar,Seminar Analysis Introduction Foundations
+308,ICVV-758,4,1,Lecture,Modern Foundations Advanced
+309,KXCD-751,4,1,Studio,Calculus Analysis Foundations
+310,SORZ-415,2,2,Lecture,Analysis Advanced
+311,XNQX-380,3,2,Lecture,In Applied Ethics Methods
+312,JHBW-909,1,12,Lecture,Laboratory Statistics
+313,YESD-613,3,1,Studio,Modern Topics
+314,NOGX-772,2,5,Lecture and lab,Writing Calculus Applied Topics
+315,HPQQ-307,2,8,Lecture and lab,Principles Analysis
+316,ROBJ-445,4,11,Lecture and lab,Principles Statistics
+317,LMCT-121,3,13,Lecture,Calculus Introduction Ethics Methods
+318,GVCU-614,3,8,Studio,Topics History
+319,ATWE-086,4,13,Lecture and lab,Of Methods
+320,SVDP-234,2,7,Lecture,To In
+321,JBQC-715,4,4,Studio,Analysis Seminar Calculus Laboratory
+322,GZBV-200,2,1,Seminar,Statistics Research Theory
+323,AAAB-586,4,13,Lecture and lab,Foundations Modern Writing
+324,PYUG-676,3,6,Lecture,Principles Research
+325,KEYE-424,1,14,Lecture and lab,Principles Foundations
+326,AXUA-571,4,2,Lecture,History Research
+327,MDGW-020,3,14,Lecture,Introduction Statistics To
+328,IBKZ-758,2,8,Lecture and lab,Topics Systems Design Ethics
+329,WKRX-449,2,6,Lecture,Modern Topics
+330,IXOM-324,4,3,Lecture,Methods Statistics Calculus Introduction
+331,ZTSB-308,4,2,Lecture,In To
+332,ZUIJ-211,2,1,Online,Research In Applied
+333,VBNU-023,4,8,Lecture,Research Advanced Foundations
+334,RUVU-473,4,1,Seminar,Ethics Algorithms Laboratory Modern
+335,IBOJ-219,3,9,Lecture,History Statistics
+336,ASKQ-807,2,4,Lecture,Applied Writing Algorithms Principles
+337,RFVZ-916,4,8,Lecture,Principles Systems Statistics
+338,WKZR-434,4,11,Lecture and lab,Writing Advanced
+339,YVIM-972,2,1,Lecture and lab,Writing Laboratory Methods
+340,JJXH-103,4,1,Lecture and lab,Foundations Principles Writing
+341,OHIX-974,2,7,Seminar,Systems Topics
+342,KAPM-528,4,7,Seminar,Theory Topics
+343,DMHV-700,4,4,Lecture and lab,Methods Systems Calculus
+344,ZTSA-653,2,6,Lecture,Design Introduction
+345,OMRM-598,2,1,Online,Laboratory Topics Foundations
+346,EGLG-319,4,7,Lecture,Foundations To Systems
+347,ACQN-924,4,3,Lecture,In Topics Writing History
+348,VHDV-672,3,2,Lecture,Topics Systems Laboratory
+349,QZHM-778,2,7,Online,Modern Applied
+350,ZWNO-879,3,14,Lecture,Writing Analysis Principles Theory
+351,AQYT-418,3,1,Lecture and lab,Writing Applied History
+352,OJLX-691,4,10,Lecture and lab,Foundations Research
+353,RKDV-679,4,9,Seminar,Foundations Advanced
+354,MILN-632,2,1,Lecture and lab,Statistics Systems Research
+355,BDJZ-698,4,11,Lecture,Calculus Topics Ethics
+356,ZVFZ-603,2,3,Lecture,Modern Algorithms Introduction Foundations
+357,BJZL-939,4,5,Lecture,Modern Of To
+358,FCOF-009,2,7,Seminar,Algorithms Principles
+359,WTXU-539,3,6,Seminar,Topics Theory
+360,GJRU-414,2,4,Lecture and lab,Foundations Calculus Methods
+361,UMZT-850,2,8,Lecture and lab,Applied Calculus Foundations Systems
+362,FOZW-654,3,3,Lecture,History Topics Statistics To
+363,ZHTP-356,1,10,Studio,Research To Writing
+364,IEWR-484,3,2,Lecture,Ethics Writing
+365,BZIJ-706,4,11,Lecture,Algorithms Seminar
+366,ABLS-257,4,12,Seminar,Modern Applied Methods
+367,XWFF-956,4,1,Lecture,Research Systems Advanced
+368,FRIK-960,3,4,Lecture,Algorithms Of
+369,AGHH-730,3,3,Lecture,Theory To Methods Research
+370,GFOA-882,2,1,Lecture and lab,Methods Introduction Statistics
+371,XRYA-281,2,6,Lecture,Research Algorithms
+372,CNZO-656,4,3,Seminar,Methods Seminar Modern
+373,RLRJ-441,4,11,Lecture,Principles Design Modern Algorithms
+374,YYEV-150,4,1,Lecture,Algorithms Topics
+375,KTDE-441,3,1,Lecture,Principles Algorithms
+376,KSSX-368,3,8,Seminar,Methods History
+377,KHLQ-967,3,5,Lecture,Modern Laboratory Advanced Foundations
+378,JODM-852,2,3,Lecture,To Research Of Ethics
+379,TSVR-539,4,11,Lecture,Writing Statistics Laboratory Theory
+380,HBEA-976,4,5,Lecture,History Statistics
+381,PCNO-812,3,6,Lecture,Statistics Methods Modern Introduction
+382,TUZI-487,3,1,Online,History Applied Introduction
+383,AGGC-276,2,12,Studio,In Modern Research Introduction
+384,COCS-078,2,2,Lecture,Applied In Systems
+385,FFGK-474,2,12,Lecture and lab,Modern Systems
+386,SAZU-945,4,12,Lecture,Statistics To
+387,KDCM-062,2,13,Lecture and lab,Theory Statistics Writing
+388,EJAP-673,3,2,Lecture,Calculus Algorithms In Methods
+389,BFJN-378,4,8,Lecture,Applied Principles Methods
+390,YNOU-291,4,7,Lecture,Systems Theory Writing
+391,GBHG-449,3,1,Seminar,Of Laboratory
+392,CASE-940,4,6,Online,Foundations Modern Design Seminar
+393,DOST-495,1,6,Seminar,Design Seminar Of Statistics
+394,GGXJ-628,4,6,Seminar,In Writing Design Seminar
+395,QJSY-662,3,11,Lecture,Design History Of
+396,VNUZ-400,3,1,Lecture,Algorithms Introduction Methods Advanced
+397,LWMN-591,3,9,Seminar,Topics To Algorithms Statistics
+398,IRRY-987,1,14,Lecture and lab,Research Design Writing
+399,FEKR-394,2,7,Online,Modern Statistics Analysis Foundations
+400,RNTL-956,4,2,Seminar,Theory Ethics Statistics History
+401,HKIU-950,4,1,Lecture,Systems In Statistics Principles
+402,FMZH-774,2,1,Lecture,Algorithms Systems Advanced
+403,OEEU-911,4,6,Lecture and lab,Methods Topics
+404,YMRW-130,4,5,Lecture,Of Algorithms Advanced Principles
+405,AAZJ-906,2,14,Lecture,Research Of
+406,OIPK-399,3,5,Lecture,Ethics Foundations Analysis Design
+407,DLVB-605,4,8,Seminar,Design Foundations History
+408,SILE-712,4,2,Seminar,Design In
+409,VTAJ-846,4,2,Lecture,Applied Seminar History Introduction
+410,IIQF-186,1,6,Lecture,Modern Advanced History Methods
+411,DREW-016,4,13,Lecture and lab,Foundations Topics
+412,IUQT-485,2,7,Lecture,Applied Advanced
+413,VKXA-478,2,1,Lecture,Systems Methods Introduction
+414,SFGJ-433,3,7,Lecture,Modern To Foundations
+415,IDAH-509,4,4,Lecture and lab,History To Statistics
+416,MOKB-079,4,3,Lecture,Algorithms In
+417,PLBH-396,1,1,Online,Applied Modern In
+418,JPRN-808,3,7,Seminar,History Theory Statistics
+419,KORL-063,2,11,Lecture and lab,Topics Modern Systems History
+420,PKVK-998,4,3,Lecture,Research Writing
+421,VIZZ-907,4,14,Lecture,Modern Applied
+422,VROC-702,4,3,Seminar,Laboratory Writing Modern
+423,TRPT-938,3,2,Online,Calculus History Ethics
+424,TWXP-204,4,4,Lecture,History Writing
+425,TSTX-669,4,2,Lecture,Theory Writing Methods
+426,SJZU-310,2,12,Lecture,Writing Seminar Applied
+427,COKL-376,3,8,Lecture,Advanced Systems Principles Algorithms
+428,DWFI-837,2,14,Online,History To
+429,WZCJ-229,4,1,Lecture,Analysis Ethics
+430,WHQT-453,4,1,Lecture,Foundations In
+431,JSKS-584,4,6,Lecture,Systems Statistics
+432,OBIH-740,4,2,Lecture,Analysis Laboratory Statistics Of
+433,LVFO-585,1,3,Lecture and lab,Research Design History Methods
+434,SXZK-100,3,12,Lecture and lab,History Principles In To
+435,PLIL-036,2,2,Lecture and lab,Statistics Topics Analysis
+436,RJXN-691,2,1,Lecture and lab,Introduction Ethics Topics
+437,YOBO-872,4,3,Lecture,Topics Applied Introduction
+438,AJUO-559,4,3,Studio,Writing Theory
+439,MDYZ-517,3,7,Studio,Introduction Calculus
+440,LCPQ-442,2,1,Seminar,Laboratory To Calculus Design
+441,UIIS-988,2,1,Seminar,Design Systems
+442,JMKK-011,2,11,Lecture and lab,History In Design
+443,DPVA-687,3,12,Lecture,Advanced In Of
+444,AOQU-017,3,1,Seminar,History Of
+445,LKMR-429,2,3,Lecture and lab,Algorithms Research Topics
+446,BLRU-886,4,13,Lecture,Topics In Statistics Introduction
+447,COCP-836,2,3,Lecture,Theory Statistics
+448,JHYC-781,2,12,Online,Analysis Writing Topics
+449,UNSE-817,4,1,Lecture and lab,Principles Design History Methods
+450,MVBS-879,2,2,Seminar,History Seminar Applied Modern
+451,XMVV-374,2,6,Lecture and lab,Research In
+452,EPRR-377,4,2,Lecture,Applied Calculus Advanced Laboratory
+453,BHVC-552,4,6,Lecture,History Modern Systems
+454,OHWM-509,3,10,Seminar,Writing Design Principles
+455,NLNA-733,4,1,Lecture,Methods Calculus Of Introduction
+456,EQWR-571,3,1,Online,Seminar Principles
+457,CQPA-480,3,12,Lecture and lab,Analysis Of Principles
+458,POCI-948,4,5,Lecture,To Applied
+459,SAUB-120,3,1,Lecture and lab,History Methods
+460,ELGY-089,4,3,Lecture,Statistics Analysis
+461,ZMHW-900,3,1,Studio,Advanced Calculus
+462,OWJT-936,4,1,Seminar,Applied Introduction
+463,XADC-431,4,13,Lecture,Analysis Algorithms Applied
+464,UZUW-317,4,8,Lecture,Principles In Systems Introduction
+465,XXCH-150,3,6,Lecture,In To Of
+466,CQBU-014,4,11,Lecture,Statistics Methods
+467,BMRL-676,3,13,Seminar,Principles To
+468,XEPG-121,2,1,Seminar,Advanced Foundations Laboratory
+469,ZOJY-196,4,6,Lecture,History Writing Modern Methods
+470,UUZY-133,4,3,Online,Seminar Methods
+471,YMFS-461,4,12,Lecture,History Design
+472,XVQL-047,4,8,Lecture,Methods Calculus
+473,DKOV-797,3,3,Online,Writing Foundations Of Advanced
+474,FUEL-122,4,7,Lecture,Of History
+475,LAYY-466,4,6,Lecture,Calculus Statistics
+476,GLJI-211,3,12,Seminar,Applied Writing Introduction
+477,GJUC-675,4,1,Studio,To Statistics
+478,ILHT-426,2,1,Online,Statistics Principles
+479,WNUJ-886,4,1,Lecture,Applied Introduction Modern Principles
+480,NAHR-942,4,3,Lecture,Statistics Research In Calculus
+481,FJEO-607,3,1,Lecture and lab,Foundations Systems Modern Analysis
+482,JYYI-407,4,5,Online,Analysis In
+483,PLNR-800,4,8,Lecture,Calculus Laboratory
+484,RIHF-610,4,5,Online,In Research
+485,WPCT-791,4,2,Lecture,Research Algorithms
+486,YQAK-676,3,1,Lecture,In Laboratory
+487,ZGUF-927,2,1,Lecture,Methods Algorithms
+488,AUSB-206,4,12,Lecture,Statistics In
+489,ENEY-045,3,12,Seminar,History Introduction
+490,CTMZ-544,4,1,Lecture and lab,Seminar Advanced Modern
+491,KJBL-447,2,2,Lecture,Of Systems Applied Modern
+492,VRDP-442,2,1,Lecture,Calculus Seminar
+493,ILQR-215,1,1,Lecture,Calculus Of
+494,IZAF-948,3,3,Seminar,To Introduction Seminar Calculus
+495,BBNN-230,4,1,Studio,Of Advanced In Methods
+496,XYJE-014,4,5,Lecture,Writing Methods Systems Of
+497,DKEF-943,4,1,Lecture,Ethics History Algorithms Introduction
+498,DXYE-580,4,2,Lecture,To Principles Methods Laboratory
+499,KGAD-814,3,4,Lecture,Theory History Applied
+500,GUNA-292,4,14,Seminar,Of Design Foundations
+501,PWPK-427,3,2,Seminar,Principles Introduction Foundations Of
+502,ERVF-432,2,8,Lecture,Analysis Of
+503,GLWB-549,4,6,Seminar,Algorithms Analysis Theory Methods
+504,WRVH-457,4,1,Lecture,Introduction Calculus
+505,ORKD-794,1,1,Seminar,Research Methods Systems
+506,MWMD-465,2,6,Lecture and lab,Principles Algorithms Design Analysis
+507,LCXY-133,4,8,Lecture,Analysis Research
+508,HGYL-834,2,14,Lecture,To Seminar Writing Of
+509,LPGK-559,1,5,Lecture,Advanced Principles
+510,NLXS-471,4,7,Seminar,Of Advanced Principles
+511,AOCJ-057,4,13,Lecture,Topics Ethics Advanced To
+512,AEFG-190,4,14,Lecture and lab,Calculus Modern In Analysis
+513,MZFJ-411,3,12,Online,Topics Advanced Calculus
+514,GNHT-572,4,7,Seminar,Analysis Algorithms
+515,NRNC-852,2,10,Lecture,Introduction Applied Calculus To
+516,QNWI-687,3,9,Online,Advanced Calculus Methods In
+517,JDDC-738,3,9,Lecture and lab,Analysis Introduction Topics Of
+518,DZPZ-305,1,10,Lecture and lab,Of Statistics Algorithms Laboratory
+519,GQQG-726,1,1,Seminar,Applied In
+520,UDMF-492,4,5,Lecture,Algorithms Modern In Applied
+521,ZCXI-438,2,1,Lecture,In Modern Ethics Systems
+522,XOFS-739,3,2,Seminar,Of Research Modern
+523,INPX-545,3,6,Seminar,Methods Of Applied Introduction
+524,JYJL-820,4,1,Lecture,Writing In
+525,IKKS-500,4,9,Lecture,Theory Applied
+526,DOHM-310,3,1,Lecture,Introduction To
+527,HLRU-267,3,12,Online,Principles Methods Of
+528,NOXW-240,2,1,Lecture,Foundations Applied Research
+529,DXWF-055,3,2,Lecture,Modern Research
+530,HZIM-531,3,11,Seminar,Advanced In Modern Topics
+531,QIYT-712,4,1,Studio,Of Introduction
+532,EIPL-671,1,5,Lecture and lab,In Design
+533,ARKB-153,3,8,Lecture and lab,Algorithms Calculus
+534,ZYGD-267,4,13,Lecture,Laboratory Advanced
+535,YNJQ-725,4,3,Lecture,Writing To Laboratory
+536,IXTR-412,2,2,Lecture,In Writing
+537,LSLH-141,4,1,Lecture and lab,Modern In Writing Analysis
+538,NSBH-809,1,10,Lecture,In Algorithms
+539,CRSZ-199,3,1,Studio,Methods Of Introduction Topics
+540,QNJY-433,4,4,Lecture and lab,Principles To Laboratory Calculus
+541,PYNK-810,3,5,Lecture,Advanced Theory In Topics
+542,QYJO-110,3,2,Online,Theory Advanced History Algorithms
+543,WFJG-941,4,5,Lecture,Applied History Seminar In
+544,BYQD-652,3,2,Lecture,History Ethics Principles
+545,TPII-585,3,2,Seminar,Calculus Principles Advanced Statistics
+546,CUTG-632,1,4,Seminar,In Modern Writing
+547,YNRK-980,3,3,Lecture and lab,Seminar Modern To
+548,JJUZ-178,1,7,Lecture,Introduction Research Systems
+549,DMPE-232,3,1,Lecture,Ethics Applied Algorithms Analysis
+550,GMYO-182,4,4,Lecture,Topics Statistics
+551,OCKO-673,3,3,Lecture,Algorithms In Laboratory
+552,RWMS-259,3,4,Lecture,To Systems
+553,KOSN-868,3,2,Lecture and lab,In To Seminar
+554,RNSB-408,4,4,Lecture,Algorithms Writing Principles Laboratory
+555,VJLH-983,3,12,Lecture,Design Statistics History
+556,STSL-760,4,2,Seminar,Algorithms History Calculus
+557,IBAV-445,3,6,Lecture,Of Systems
+558,PUJZ-448,2,6,Online,In Theory
+559,UCTX-922,3,4,Lecture and lab,Calculus Methods
+560,WHQO-577,4,1,Lecture,Principles In Methods Ethics
+561,IUGP-685,1,2,Seminar,Of Calculus Systems Laboratory
+562,APZC-339,3,9,Lecture,Design Algorithms Advanced Statistics
+563,WFMG-115,3,11,Lecture,Methods Algorithms
+564,YUXV-701,2,3,Lecture and lab,Ethics Analysis Research Theory
+565,AQBR-653,4,1,Lecture and lab,Research To History
+566,OPCI-351,3,10,Lecture,In Algorithms Of History
+567,HNWG-716,4,1,Lecture and lab,Analysis Advanced Laboratory
+568,RMGG-536,1,4,Lecture,Laboratory In Applied
+569,YIZJ-085,4,1,Online,In Seminar
+570,YSMJ-197,3,9,Seminar,Calculus Introduction History
+571,PBRT-487,1,14,Studio,Design Methods Of History
+572,HIOK-678,4,14,Lecture,Calculus Topics Statistics Design
+573,AJYN-014,3,6,Online,Methods Ethics Seminar Laboratory
+574,SIFU-674,2,1,Seminar,History Analysis
+575,SDKN-234,4,14,Lecture,Foundations Statistics
+576,EEAE-121,4,6,Lecture and lab,History Laboratory Ethics Introduction
+577,VBZY-232,3,12,Lecture,To Calculus
+578,JJJF-324,3,6,Lecture and lab,Introduction Research Advanced
+579,SLNK-790,3,3,Seminar,Principles Applied
+580,COLN-861,4,6,Studio,Research Design Topics Analysis
+581,KCND-123,3,5,Seminar,Analysis Modern Writing Algorithms
+582,IDXX-483,3,1,Seminar,Methods Statistics
+583,WGOP-454,4,1,Lecture,To Research
+584,KTXU-635,4,2,Lecture,Foundations To Methods
+585,FYBY-205,3,10,Lecture and lab,Introduction Laboratory
+586,DUHJ-094,4,9,Lecture and lab,Algorithms Introduction Design
+587,XGLG-654,3,1,Seminar,Seminar Algorithms Of
+588,YGZQ-701,3,1,Lecture,Introduction Principles
+589,KMMC-354,4,10,Lecture,Laboratory Theory In
+590,RDTM-192,4,1,Online,Algorithms Analysis Laboratory
+591,EUWU-041,1,4,Lecture,Analysis Design Modern Topics
+592,DJIR-807,4,1,Lecture,Writing To
+593,FVDR-091,4,1,Lecture,Principles Algorithms Foundations Methods
+594,AQAE-247,4,10,Lecture,Advanced Algorithms Modern
+595,PRZL-906,4,6,Seminar,Systems Advanced
+596,GCAC-880,3,2,Lecture and lab,Systems Ethics
+597,UXGB-748,1,1,Lecture,Theory Writing
+598,UQMR-011,2,3,Lecture,History Seminar
+599,AJGX-580,3,13,Online,Research Statistics Of
+600,BUGP-564,4,5,Lecture,Systems Theory

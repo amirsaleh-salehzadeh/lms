@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <template id="report_ticket">
+            <t t-call="web.html_container">
+                <t t-foreach="get_data" t-as="ticket_data">
+                    <t t-set="o" t-value="docs"/>
+                    <t t-call="web.external_layout">
+                        <div class="page">
+                            <div class="oe_structure" id="report_ticket_structure"/>
+                            <div class="text-center mt-4 mb-2">
+                                <h2 class="mt-2 mb-2">
+                                    <strong>Hall Ticket</strong>
+                                </h2>
+                            </div>
+                            <div class="text-center mb-4">
+                                <h4 class="mt-0 text-muted">
+                                    (<span t-out="ticket_data['exam'] if ticket_data['exam'] else ''"/> 
+                                    <span t-out="ticket_data['exam_code'] if ticket_data['exam_code'] else ''"/>)
+                                </h4>
+                            </div>
+                            <div id="informations" class="row mt-4 mb-4 align-items-center">
+                                <div class="col-10">
+                                    <div class="row">
+                                        <div class="col-auto col-4 mw-100 mb-2">
+                                            <strong>Student Name:</strong>
+                                            <p class="m-0" t-out="ticket_data['student']"/>
+                                        </div>
+                                        <div class="col-auto col-4 mw-100 mb-2">
+                                            <strong>Roll No:</strong>
+                                            <p class="m-0" t-out="ticket_data['roll_number'] if ticket_data['roll_number'] else ''"/>
+                                        </div>
+                                        <div class="col-auto col-4 mw-100 mb-2">
+                                            <strong>Course:</strong>
+                                            <p class="m-0" t-out="ticket_data['course'] if ticket_data['course'] else ''"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 text-end">
+                                    <img t-if="ticket_data['image']" alt="Student Image"
+                                            t-att-src="image_data_uri(ticket_data['image'])"
+                                            style="max-height: 120px; object-fit: contain;" class="img-thumbnail border-0 p-0 m-0"/>
+                                </div>
+                            </div>
+                            <table class="table table-sm o_main_table table-borderless mt-4 mb-0" name="ticket_table">
+                                <thead>
+                                    <tr>
+                                        <th class="text-start">Subject</th>
+                                        <th class="text-center">Date</th>
+                                        <th class="text-center">Time</th>
+                                        <th class="text-center">Supervisor Sign</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr t-foreach="ticket_data['line']" t-as="s">
+                                        <td class="text-start">
+                                            <span t-out="s['subject'] if s['subject'] else ''"/>
+                                        </td>
+                                        <td class="text-center">
+                                            <span t-out="s['date'] if s['date'] else ''" t-options="{'widget':'date'}"/>
+                                        </td>
+                                        <td class="text-center">
+                                            <span t-esc="s['time']"/>
+                                        </td>
+                                        <td class="text-center">
+                                            <span t-out="s['sup_sign'] if s['sup_sign'] else ''"/>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+
+</odoo>

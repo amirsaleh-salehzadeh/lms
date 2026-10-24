@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_fees_analysis">
+        <t t-call="web.html_container">
+            <t t-call="web.external_layout">
+                <div class="page">
+                    <div class="oe_structure" id="report_fees_analysis_structure"/>
+                    
+                    <div class="text-center mt-4 mb-4">
+                        <h2 class="mt-4 mb-2">
+                            <strong>
+                                <t t-if="report_type == 'course'">
+                                    <t t-out="course_name"/> - 
+                                </t>
+                                Fees Detail
+                            </strong>
+                        </h2>
+                    </div>
+                    <table class="table table-sm o_main_table table-borderless mt-4 mb-0" name="fees_analysis_table">
+                        <thead>
+                            <tr>
+                                <th class="text-center" style="text-transform: capitalize;">Student Name</th>
+                                <th class="text-center" style="text-transform: capitalize;">Total Amount</th>
+                                <th class="text-center" style="text-transform: capitalize;">Total Invoiced</th>
+                                <th class="text-center" style="text-transform: capitalize;">Total Paid</th>
+                                <th class="text-center" style="text-transform: capitalize;">Total Unpaid</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <t t-foreach="docs" t-as="doc">
+                                <t t-set="amount" t-value="get_invoice_amount(doc)"/>
+                                <t t-set="total_amount" t-value="amount[0]"/>
+                                <t t-set="total_paid" t-value="amount[1]"/>
+                                <tr>
+                                    <td class="text-center">
+                                        <span t-out="doc.name or ''"/>
+                                    </td>
+                                    <td class="text-center">
+                                        <span t-esc="total_amount"/>
+                                    </td>
+                                    <td class="text-center">
+                                        <span t-esc="doc.total_invoiced"/>
+                                    </td>
+                                    <td class="text-center">
+                                        <span t-esc="total_paid"/>
+                                    </td>
+                                    <td class="text-center">
+                                        <span t-esc="total_amount - total_paid"/>
+                                    </td>
+                                </tr>
+                            </t>
+                        </tbody>
+                    </table>
+                </div>
+            </t>
+        </t>
+    </template>
+</odoo>

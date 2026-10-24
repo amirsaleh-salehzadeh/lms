@@ -1,0 +1,121 @@
+id,description,due_date,max_points,section_id,title
+1,Pairs,2024-05-10 00:00:00,100,22,Problem set
+2,Individual,2021-12-17 00:00:00,100,25,Case study
+3,Pairs,2025-05-16 00:00:00,100,1,Reading response
+4,Pairs,2023-12-15 00:00:00,100,18,Essay
+5,Group of four,2023-12-15 00:00:00,100,38,Problem set
+6,Individual,2024-12-13 00:00:00,100,5,Reading response
+7,Individual,2023-12-15 00:00:00,100,38,Lab report
+8,Individual,2024-12-13 00:00:00,100,5,Problem set
+9,Individual,2025-12-12 00:00:00,100,13,Lab report
+10,Individual,2023-05-12 00:00:00,100,4,Essay
+11,Individual,2025-12-12 00:00:00,100,3,Case study
+12,Individual,2021-05-14 00:00:00,100,31,Lab report
+13,Individual,2024-12-13 00:00:00,100,5,Lab report
+14,Individual,2022-05-13 00:00:00,100,12,Case study
+15,Individual,2021-12-17 00:00:00,100,11,Essay
+16,Individual,2025-12-12 00:00:00,100,29,Project milestone
+17,Group of four,2024-05-10 00:00:00,100,22,Problem set
+18,Pairs,2024-12-13 00:00:00,100,27,Lab report
+19,Group of four,2022-05-13 00:00:00,100,9,Project milestone
+20,Individual,2021-12-17 00:00:00,100,14,Project milestone
+21,Individual,2024-05-10 00:00:00,100,26,Reading response
+22,Pairs,2025-05-16 00:00:00,100,1,Problem set
+23,Individual,2022-12-16 00:00:00,100,30,Essay
+24,Individual,2024-12-13 00:00:00,100,5,Reading response
+25,Group of four,2023-12-15 00:00:00,100,35,Lab report
+26,Individual,2021-05-14 00:00:00,100,23,Lab report
+27,Individual,2021-05-14 00:00:00,100,31,Lab report
+28,Pairs,2025-05-16 00:00:00,100,1,Problem set
+29,Pairs,2022-05-13 00:00:00,100,12,Essay
+30,Individual,2021-05-14 00:00:00,100,6,Project milestone
+31,Group of four,2022-05-13 00:00:00,100,12,Essay
+32,Individual,2021-05-14 00:00:00,100,24,Case study
+33,Individual,2025-05-16 00:00:00,100,1,Lab report
+34,Individual,2025-12-12 00:00:00,100,3,Problem set
+35,Individual,2023-05-12 00:00:00,100,4,Essay
+36,Individual,2022-12-16 00:00:00,100,16,Problem set
+37,Pairs,2025-05-16 00:00:00,100,1,Lab report
+38,Pairs,2021-05-14 00:00:00,100,33,Essay
+39,Individual,2024-05-10 00:00:00,100,22,Lab report
+40,Group of four,2021-05-14 00:00:00,100,34,Reading response
+41,Individual,2025-05-16 00:00:00,100,1,Project milestone
+42,Individual,2021-05-14 00:00:00,100,24,Case study
+43,Pairs,2021-05-14 00:00:00,100,34,Project milestone
+44,Pairs,2021-05-14 00:00:00,100,24,Reading response
+45,Individual,2023-12-15 00:00:00,100,18,Essay
+46,Individual,2021-05-14 00:00:00,100,20,Essay
+47,Individual,2025-05-16 00:00:00,100,1,Essay
+48,Pairs,2021-05-14 00:00:00,100,39,Lab report
+49,Individual,2022-05-13 00:00:00,100,9,Problem set
+50,Individual,2021-05-14 00:00:00,100,37,Essay
+51,Individual,2021-05-14 00:00:00,100,6,Lab report
+52,Individual,2025-05-16 00:00:00,100,1,Essay
+53,Individual,2021-05-14 00:00:00,100,31,Lab report
+54,Individual,2023-12-15 00:00:00,100,35,Essay
+55,Individual,2022-05-13 00:00:00,100,9,Problem set
+56,Group of four,2023-05-12 00:00:00,100,2,Project milestone
+57,Individual,2025-05-16 00:00:00,100,1,Project milestone
+58,Individual,2025-05-16 00:00:00,100,1,Project milestone
+59,Individual,2023-05-12 00:00:00,100,4,Reading response
+60,Pairs,2024-12-13 00:00:00,100,27,Essay
+61,Individual,2021-05-14 00:00:00,100,6,Project milestone
+62,Individual,2025-05-16 00:00:00,100,1,Lab report
+63,Individual,2022-12-16 00:00:00,100,16,Essay
+64,Group of four,2023-05-12 00:00:00,100,2,Reading response
+65,Individual,2025-12-12 00:00:00,100,29,Problem set
+66,Individual,2025-12-12 00:00:00,100,3,Case study
+67,Pairs,2023-05-12 00:00:00,100,4,Essay
+68,Pairs,2025-05-16 00:00:00,100,1,Project milestone
+69,Individual,2025-12-12 00:00:00,100,19,Lab report
+70,Group of four,2021-05-14 00:00:00,100,33,Reading response
+71,Group of four,2024-05-10 00:00:00,100,26,Lab report
+72,Group of four,2025-05-16 00:00:00,100,1,Lab report
+73,Individual,2023-05-12 00:00:00,100,2,Essay
+74,Individual,2024-05-10 00:00:00,100,7,Essay
+75,Individual,2023-12-15 00:00:00,100,35,Essay
+76,Group of four,2021-05-14 00:00:00,100,31,Reading response
+77,Pairs,2021-05-14 00:00:00,100,8,Problem set
+78,Individual,2023-05-12 00:00:00,100,10,Lab report
+79,Individual,2025-05-16 00:00:00,100,1,Reading response
+80,Individual,2023-05-12 00:00:00,100,10,Project milestone
+81,Individual,2025-05-16 00:00:00,100,1,Lab report
+82,Individual,2025-05-16 00:00:00,100,1,Problem set
+83,Individual,2025-05-16 00:00:00,100,1,Essay
+84,Individual,2025-05-16 00:00:00,100,1,Lab report
+85,Individual,2021-05-14 00:00:00,100,20,Essay
+86,Individual,2025-05-16 00:00:00,100,1,Project milestone
+87,Individual,2023-05-12 00:00:00,100,2,Essay
+88,Pairs,2022-05-13 00:00:00,100,12,Case study
+89,Individual,2022-05-13 00:00:00,100,12,Case study
+90,Individual,2025-05-16 00:00:00,100,1,Reading response
+91,Individual,2023-05-12 00:00:00,100,4,Essay
+92,Pairs,2022-05-13 00:00:00,100,12,Project milestone
+93,Individual,2021-12-17 00:00:00,100,14,Reading response
+94,Individual,2023-05-12 00:00:00,100,2,Problem set
+95,Pairs,2021-12-17 00:00:00,100,25,Case study
+96,Individual,2025-12-12 00:00:00,100,3,Problem set
+97,Individual,2022-05-13 00:00:00,100,15,Lab report
+98,Individual,2025-05-16 00:00:00,100,1,Problem set
+99,Pairs,2021-05-14 00:00:00,100,21,Problem set
+100,Group of four,2023-05-12 00:00:00,100,4,Project milestone
+101,Individual,2023-12-15 00:00:00,100,18,Problem set
+102,Individual,2021-05-14 00:00:00,100,34,Essay
+103,Individual,2022-05-13 00:00:00,100,9,Essay
+104,Individual,2021-05-14 00:00:00,100,28,Project milestone
+105,Pairs,2022-05-13 00:00:00,100,15,Reading response
+106,Individual,2025-05-16 00:00:00,100,1,Project milestone
+107,Individual,2024-05-10 00:00:00,100,7,Problem set
+108,Individual,2025-12-12 00:00:00,100,3,Reading response
+109,Individual,2022-05-13 00:00:00,100,15,Essay
+110,Individual,2022-05-13 00:00:00,100,9,Lab report
+111,Individual,2025-05-16 00:00:00,100,1,Project milestone
+112,Individual,2025-05-16 00:00:00,100,1,Project milestone
+113,Individual,2025-05-16 00:00:00,100,1,Reading response
+114,Pairs,2021-12-17 00:00:00,100,11,Essay
+115,Individual,2025-05-16 00:00:00,100,1,Lab report
+116,Individual,2023-05-12 00:00:00,100,10,Reading response
+117,Individual,2021-05-14 00:00:00,100,37,Case study
+118,Individual,2021-05-14 00:00:00,100,33,Project milestone
+119,Individual,2023-12-15 00:00:00,100,38,Project milestone
+120,Individual,2021-05-14 00:00:00,100,23,Reading response

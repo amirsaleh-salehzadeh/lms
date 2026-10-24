@@ -1,0 +1,11 @@
+id,department_id,person_id,rank,salary
+1,5,47,assistant_professor,96928.75
+2,5,32,professor,64114.37
+3,9,9,assistant_professor,109284.68
+4,3,36,assistant_professor,94169.03
+5,5,13,lecturer,173714.28
+6,2,27,associate_professor,179226.20
+7,5,21,professor,81843.98
+8,8,38,professor,96222.38
+9,1,30,associate_professor,128236.11
+10,1,33,lecturer,171437.85
