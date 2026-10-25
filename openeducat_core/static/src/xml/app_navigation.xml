@@ -4,6 +4,9 @@
         <xpath expr="//t[@t-call='web.NavBar.AppsMenu']" position="replace">
             <button class="o_menu_toggle border-0 o_oe_mega_menu_trigger" type="button" title="Home Menu"
                     t-on-click="toggleMegaMenu">
+                <img class="o_oe_mega_menu_trigger__logo"
+                     src="/openeducat_core/static/src/img/eastern-cape-crest.png"
+                     alt="Eastern Cape Department of Health" />
                 <i class="oi oi-apps" aria-hidden="true" />
                 <span class="visually-hidden">Home Menu</span>
             </button>
@@ -12,7 +15,14 @@
             <t t-if="state.isMegaMenuOpen">
                 <section class="o_oe_mega_menu" role="dialog" aria-modal="true" aria-label="Home Menu">
                     <header class="o_oe_mega_menu__header">
-                        <h1 class="o_oe_mega_menu__title">Home Menu</h1>
+                        <div class="o_oe_mega_menu__brand">
+                            <img src="/openeducat_core/static/src/img/eastern-cape-crest.png"
+                                 alt="Eastern Cape Department of Health" />
+                            <div>
+                                <span class="o_oe_mega_menu__department">Eastern Cape Department of Health</span>
+                                <h1 class="o_oe_mega_menu__title">Home Menu</h1>
+                            </div>
+                        </div>
                         <button class="o_oe_mega_menu__close" type="button" t-on-click="closeMegaMenu">
                             <i class="oi oi-close" aria-hidden="true" />
                             <span>Close</span>
