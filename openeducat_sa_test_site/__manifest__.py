@@ -4,8 +4,9 @@
     'version': '19.0.1.0.0',
     'category': 'Website/Theme',
     'license': 'LGPL-3',
-    'depends': ['website'],
+    'depends': ['website', 'website_slides'],
     'data': [
+        'data/website_branding.xml',
         'views/homepage.xml',
     ],
     'assets': {

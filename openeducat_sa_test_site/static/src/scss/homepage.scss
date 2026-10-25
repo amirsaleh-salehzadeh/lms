@@ -626,6 +626,97 @@ body:has(.oe_website_login_container) {
     }
 }
 
+// The department identity is shared by every public website page, including
+// eLearning courses and individual slide pages that use website.layout.
+body:not(:has(.sa-test-site)):not(:has(.oe_website_login_container)) {
+    #top {
+        position: relative;
+        padding-top: 7px;
+        border-bottom: 1px solid #dce5e0;
+        background: #fff;
+
+        &::before {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 7px;
+            background: linear-gradient(90deg, #111 0 19%, #{$sa-green} 19% 39%, #fff 39% 41%, #{$sa-red} 41% 61%, #fff 61% 63%, #{$sa-blue} 63% 83%, #{$sa-yellow} 83% 100%);
+            content: "";
+        }
+
+        .navbar { min-height: 76px; background: #fff !important; }
+
+        .navbar-brand.logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.7rem;
+            color: #172a23;
+            font-weight: 700;
+
+            img {
+                display: block !important;
+                width: 3.25rem !important;
+                height: 3.25rem !important;
+                object-fit: contain;
+            }
+
+            &::after {
+                max-width: 13rem;
+                color: #172a23;
+                content: "Eastern Cape Department of Health";
+                font-size: 0.9rem;
+                line-height: 1.25;
+                white-space: normal;
+            }
+        }
+
+        .top_menu .nav-link { color: #30423a !important; }
+        .top_menu .nav-link:hover,
+        .top_menu .nav-link:focus-visible { color: $sa-green !important; }
+        .o_nav_link_btn { border-color: #cbd8d0 !important; color: $sa-green !important; }
+        .btn-primary,
+        .btn_cta { border-color: $sa-green !important; background: $sa-green !important; color: #fff !important; }
+        .btn-primary:hover,
+        .btn_cta:hover { border-color: #005c39 !important; background: #005c39 !important; }
+    }
+
+    #bottom {
+        border-top: 1px solid #dce5e0;
+        background: #f4f7f4;
+        color: #30423a;
+    }
+}
+
+// The Slides module colors its course cover from each course's saved cover
+// settings. Use the department palette consistently on course and slide pages.
+body.o_wslides_body {
+    .o_record_cover_container {
+        background-color: $sa-green !important;
+        color: #fff !important;
+    }
+
+    .o_record_cover_image { background-image: none !important; }
+    .o_record_cover_filter { opacity: 0 !important; }
+
+    .o_wslides_course_nav {
+        background-color: rgba(0, 0, 0, 0.13);
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .o_wslides_course_nav,
+    .o_wslides_course_nav a,
+    .o_wslides_course_header,
+    .o_wslides_course_header a:not(.btn) { color: #fff !important; }
+
+    .o_wslides_course_main {
+        a:not(.btn) { color: $sa-green; }
+        .nav-link.active { border-color: $sa-green !important; color: $sa-green !important; }
+        .btn-primary { border-color: $sa-green !important; background: $sa-green !important; }
+    }
+}
+
 // Suppress the stock website vendor promotion and credit wherever the shared
 // Odoo website footer is rendered.
 #bottom .o_brand_promotion,
