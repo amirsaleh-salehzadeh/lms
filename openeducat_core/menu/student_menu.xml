@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
         <menuitem id="menu_op_student_root"
-                  name="Doctors"
+                  name="Learners"
                   sequence="260"
                   web_icon="openeducat_core,static/description/icon_faculty.png"
                   groups="openeducat_core.group_op_back_office_admin,openeducat_core.group_op_department_staff_manager,openeducat_core.group_op_faculty"/>
         <menuitem id="menu_op_student_main_student"
-                  name="Doctor Profiles"
+                  name="Learner Profiles"
                   parent="menu_op_student_root"
                   sequence="20"
                   action="act_open_op_student_view_2"
@@ -25,7 +25,7 @@
                   groups="openeducat_core.group_op_back_office_admin,openeducat_core.group_op_department_staff_manager,openeducat_core.group_op_faculty"/>
 
         <menuitem id="student_course_menu"
-                  name="Doctor Learning Records"
+                  name="Learner Learning Records"
                   parent="openeducat_core.menu_op_general_student"
                   sequence="40"
                   action="act_open_op_student_course_view"

@@ -8,7 +8,7 @@
             <field name="arch" type="xml">
                 <list string="Course Registration">
                     <field name="name"/>
-                    <field name="student_id" string="Doctor"/>
+                    <field name="student_id" string="Learner"/>
                     <field name="course_id"/>
                     <field name="batch_id"/>
                     <field name="min_unit_load" optional="hide"/>
@@ -50,7 +50,7 @@
                         </h1>
                         <group>
                             <group>
-                                <field name="student_id" string="Doctor" required="1"/>
+                                <field name="student_id" string="Learner" required="1"/>
                                 <field name="batch_id" domain="[('course_id', '=', course_id)]" required='1'/>
                                 <field name="max_unit_load"/>
                                 <field name="company_id" groups="base.group_multi_company"/>
@@ -81,7 +81,7 @@
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
                 <search string="Course Registration">
-                    <field name="student_id" string="Doctor"/>
+                    <field name="student_id" string="Learner"/>
                     <field name="course_id"/>
                     <field name="batch_id"/>
                     <newline/>
@@ -106,7 +106,7 @@
             <field name="arch" type="xml">
                 <graph string="Subject registration graph" type="pie">
                     <field name="course_id" type="row"/>
-                    <field name="student_id" string="Doctor" type="col"/>
+                    <field name="student_id" string="Learner" type="col"/>
                     <field name="course_id" type="measure"/>
                 </graph>
             </field>
@@ -119,7 +119,7 @@
                 <pivot string="Subject Registration Analysis">
                     <field name="course_id" type="row"/>
                     <field name="batch_id"/>
-                    <field name="student_id" string="Doctor"/>
+                    <field name="student_id" string="Learner"/>
                     <field name="name"/>
                     <field name="state"/>
                 </pivot>

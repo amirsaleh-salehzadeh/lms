@@ -29,7 +29,7 @@
                         </button>
                     </header>
                     <div class="o_oe_mega_menu__content">
-                        <p class="o_oe_mega_menu__intro">Clinical learning and department applications for doctors and care teams.</p>
+                        <p class="o_oe_mega_menu__intro">Clinical learning and department applications for learners and care teams.</p>
                         <div class="o_oe_mega_menu__grid">
                             <div t-foreach="this.getMegaMenuColumns()" t-as="column" t-key="column_index" class="o_oe_mega_menu__column">
                                 <article t-foreach="column" t-as="entry" t-key="entry.app.id" class="o_oe_mega_menu__app">

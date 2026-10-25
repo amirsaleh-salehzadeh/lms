@@ -5,8 +5,8 @@
             <field name="model">op.student.course</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
-                <list string="Doctor Learning Record">
-                    <field name="student_id" string="Doctor"/>
+                <list string="Learner Learning Record">
+                    <field name="student_id" string="Learner"/>
                     <field name="course_id"/>
                     <field name="batch_id" string="Learning Cohort"/>
                     <field name="subject_ids" string="Learning Topics" widget="many2many_tags"/>
@@ -23,14 +23,14 @@
             <field name="model">op.student.course</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
-                <form string="Doctor Learning Record">
+                <form string="Learner Learning Record">
                     <header>
                             <field name="state" widget="statusbar"/>
                     </header>
                     <sheet>
                         <group>
                             <group>
-                                <field name="student_id" string="Doctor"/>
+                                <field name="student_id" string="Learner"/>
                                 <field name="batch_id" string="Learning Cohort" domain="[('course_id', '=', course_id)]" required="1"/>
                                 <field name="academic_years_id" string="Training Year"/>
                             </group>
@@ -56,8 +56,8 @@
             <field name="model">op.student.course</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
-                <search string="Doctor Learning Record">
-                    <field name="student_id" string="Doctor"/>
+                <search string="Learner Learning Record">
+                    <field name="student_id" string="Learner"/>
                     <field name="course_id"/>
                     <field name="batch_id" string="Learning Cohort"/>
                     <field name="roll_number" string="Record Number"/>
@@ -82,8 +82,8 @@
             <field name="model">op.student.course</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
-                <pivot string="Doctor Learning Record">
-                    <field name="student_id" string="Doctor"/>
+                <pivot string="Learner Learning Record">
+                    <field name="student_id" string="Learner"/>
                     <field name="course_id" type="row"/>
                     <field name="batch_id" string="Learning Cohort"/>
                 </pivot>
@@ -91,7 +91,7 @@
         </record>
 
         <record model="ir.actions.act_window" id="act_open_op_student_course_view">
-            <field name="name">Doctor Learning Records</field>
+            <field name="name">Learner Learning Records</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">op.student.course</field>
             <field name="path">student-course</field>
