@@ -83,7 +83,7 @@
                      too. If Register Departure is wanted for staff, drive it
                      from emp_id on the employee itself. -->
                 <form string="Faculty">
-                    <header groups="openeducat_core.group_op_back_office_admin">
+                    <header groups="openeducat_core.group_op_back_office_admin,openeducat_core.group_op_department_staff_manager">
                     </header>
                     <sheet>
                         <div name="button_box" class="oe_button_box">

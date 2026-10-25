@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="openeducat_core.AppMegaMenuNavbar" t-inherit="web.NavBar" t-inherit-mode="extension">
+        <xpath expr="//t[@t-call='web.NavBar.AppsMenu']" position="replace">
+            <button class="o_menu_toggle border-0 o_oe_mega_menu_trigger" type="button" title="Home Menu"
+                    t-on-click="toggleMegaMenu">
+                <i class="oi oi-apps" aria-hidden="true" />
+                <span class="visually-hidden">Home Menu</span>
+            </button>
+        </xpath>
+        <xpath expr="//nav[contains(@class, 'o_main_navbar')]" position="after">
+            <t t-if="state.isMegaMenuOpen">
+                <section class="o_oe_mega_menu" role="dialog" aria-modal="true" aria-label="Home Menu">
+                    <header class="o_oe_mega_menu__header">
+                        <h1 class="o_oe_mega_menu__title">Home Menu</h1>
+                        <button class="o_oe_mega_menu__close" type="button" t-on-click="closeMegaMenu">
+                            <i class="oi oi-close" aria-hidden="true" />
+                            <span>Close</span>
+                        </button>
+                    </header>
+                    <div class="o_oe_mega_menu__content">
+                        <p class="o_oe_mega_menu__intro">Clinical learning and department applications for doctors and care teams.</p>
+                        <div class="o_oe_mega_menu__grid">
+                            <div t-foreach="this.getMegaMenuColumns()" t-as="column" t-key="column_index" class="o_oe_mega_menu__column">
+                                <article t-foreach="column" t-as="entry" t-key="entry.app.id" class="o_oe_mega_menu__app">
+                                    <button class="o_oe_mega_menu__app_title" type="button"
+                                            t-on-click="() => this.openMegaMenuItem(entry.app)">
+                                        <img t-if="entry.app.webIconData" t-att-src="entry.app.webIconData" t-att-alt="''" />
+                                        <span t-esc="entry.app.name" />
+                                    </button>
+                                    <ul class="o_oe_mega_menu__tree">
+                                        <t t-foreach="entry.sections" t-as="item" t-key="item.id">
+                                            <t t-call="openeducat_core.AppMegaMenuItem" />
+                                        </t>
+                                    </ul>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </t>
+        </xpath>
+    </t>
+
+    <t t-name="openeducat_core.AppMegaMenuItem">
+        <li t-att-class="{'o_oe_mega_menu__group': item.childrenTree.length}">
+            <span t-if="item.childrenTree.length" class="o_oe_mega_menu__group_label" t-esc="item.name" />
+            <button t-else="" class="o_oe_mega_menu__leaf" type="button"
+                    t-on-click="() => this.openMegaMenuItem(item)" t-esc="item.name" />
+            <ul t-if="item.childrenTree.length">
+                <t t-foreach="item.childrenTree" t-as="child" t-key="child.id">
+                    <t t-call="openeducat_core.AppMegaMenuItem">
+                        <t t-set="item" t-value="child" />
+                    </t>
+                </t>
+            </ul>
+        </li>
+    </t>
+</templates>

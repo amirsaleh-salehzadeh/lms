@@ -50,21 +50,21 @@
               parent="menu_op_school_config_course"
               sequence="10"
               action="act_open_op_course_view"
-              groups="group_op_back_office_admin"/>
+              groups="group_op_back_office_admin,openeducat_core.group_op_department_staff_manager"/>
 
     <menuitem id="menu_op_batch_sub"
               name="Batches"
               parent="menu_op_school_config_course"
               sequence="20"
               action="act_open_op_batch_view"
-              groups="group_op_back_office_admin"/>
+              groups="group_op_back_office_admin,openeducat_core.group_op_department_staff_manager"/>
 
     <menuitem id="menu_op_department_sub"
               name="Department"
               parent="menu_op_school_config_course"
               sequence="20"
               action="act_open_op_department_view"
-              groups="group_op_back_office_admin"/>
+              groups="group_op_back_office_admin,openeducat_core.group_op_department_staff_manager"/>
 
     <menuitem id="menu_op_school_config_subject"
               name="Subject Management"
@@ -76,7 +76,7 @@
               sequence="10"
               parent="menu_op_school_config_subject"
               action="act_open_op_subject_view"
-              groups="group_op_back_office_admin,openeducat_core.group_op_faculty"/>
+              groups="group_op_back_office_admin,openeducat_core.group_op_department_staff_manager,openeducat_core.group_op_faculty"/>
 
     <menuitem id="menu_op_school_config_general"
               name="General Management"
@@ -88,7 +88,7 @@
               parent="menu_op_school_config_general"
               sequence="40"
               action="act_open_op_category_view"
-              groups="openeducat_core.group_op_back_office_admin"/>
+              groups="openeducat_core.group_op_back_office_admin,openeducat_core.group_op_department_staff_manager"/>
 
     <!-- Activity Root -->
     <menuitem id="menu_op_school_config_activity"
@@ -113,13 +113,13 @@
               sequence="1"
               parent="openeducat_core.menu_op_school_config"
               action="act_op_academic_year_view"
-              groups="openeducat_core.group_op_back_office_admin"/>
+              groups="openeducat_core.group_op_back_office_admin,openeducat_core.group_op_department_staff_manager"/>
 
     <menuitem id="menu_academic_term" name="Academic Term"
               sequence="2"
               parent="openeducat_core.menu_op_school_config"
               action="act_op_academic_term_view"
-              groups="openeducat_core.group_op_back_office_admin"/>
+              groups="openeducat_core.group_op_back_office_admin,openeducat_core.group_op_department_staff_manager"/>
 
     <menuitem id="menu_op_school_config_program"
               name="Program Management"
@@ -131,13 +131,13 @@
               parent="menu_op_school_config_program"
               sequence="10"
               action="act_open_op_program_view"
-              groups="group_op_back_office_admin"/>
+              groups="group_op_back_office_admin,openeducat_core.group_op_department_staff_manager"/>
 
     <menuitem id="menu_op_program_level_sub"
               name="Program Level"
               parent="menu_op_school_config_program"
               sequence="10"
               action="act_open_op_program_level_view"
-              groups="group_op_back_office_admin"/>
+              groups="group_op_back_office_admin,openeducat_core.group_op_department_staff_manager"/>
 
 </odoo>

@@ -2,7 +2,7 @@
 <odoo>
 
         <record id="kanban_view_student" model="ir.ui.view">
-            <field name="name">Student Kanban</field>
+            <field name="name">Doctor Kanban</field>
             <field name="model">op.student</field>
             <field name="arch" type="xml">
                 <kanban sample="1" class="o_student_kanban">
@@ -59,7 +59,7 @@
             <field name="model">op.student</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
-                <list string="Student">
+                <list string="Doctor">
                     <field name="title" optional="show"/>
                     <field name="name"/>
                     <field name="gender" optional="show"/>
@@ -93,7 +93,7 @@
                      the styling in that commit is a global .oe_stat_button rule
                      and does not depend on the js_class, so removing it changes
                      appearance not at all and restores the standard Archive. -->
-                <form string="Student">
+                <form string="Doctor">
                     <header>
                     </header>
                     <sheet>
@@ -270,7 +270,7 @@
             <field name="model">op.student</field>
             <field name="priority" eval="8"/>
             <field name="arch" type="xml">
-                <search string="Student">
+                <search string="Doctor">
                     <field name="name"/>
                     <field name="blood_group"/>
                     <newline/>
@@ -306,7 +306,7 @@
         </record>
 
         <record model="ir.actions.act_window" id="act_open_op_student_view">
-            <field name="name">Students</field>
+            <field name="name">Doctors</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">op.student</field>
             <field name="path">students</field>
@@ -339,7 +339,7 @@
         </record>
 
         <record model="ir.actions.act_window" id="act_open_op_student_view_2">
-            <field name="name">Students</field>
+            <field name="name">Doctors</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">op.student</field>
             <field name="path">student</field>

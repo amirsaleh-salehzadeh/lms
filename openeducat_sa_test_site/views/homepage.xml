@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="sa_test_homepage" name="Department staff learning portal">
+        <t t-call="website.layout">
+            <t t-set="title" t-value="'Doctors Learning Portal | Clinical eLearning'"/>
+            <div id="wrap" class="oe_structure sa-test-site">
+                <div class="sa-test-site__flag" aria-hidden="true"/>
+
+                <header class="sa-test-site__masthead">
+                    <div class="sa-test-site__masthead-inner">
+                        <a class="sa-test-site__brand" href="/" aria-label="Doctors learning portal home">
+                            <img src="/openeducat_sa_test_site/static/src/img/eastern-cape-crest.png"
+                                 alt="Eastern Cape coat of arms" width="84" height="84"/>
+                            <span class="sa-test-site__brand-copy">
+                                <span class="sa-test-site__eyebrow">Eastern Cape</span>
+                                <strong>Clinical Learning Portal</strong>
+                            </span>
+                        </a>
+                        <div class="sa-test-site__masthead-center">
+                            <span class="sa-test-site__eyebrow">Continuing learning for doctors and care teams</span>
+                            <h1>Clinical Learning System</h1>
+                            <p>Professional development for doctors across the department</p>
+                        </div>
+                        <a class="sa-test-site__utility" href="/web/login">
+                            <span class="sa-test-site__utility-mark" aria-hidden="true">i</span>
+                            <span>Staff access<br/><strong>Sign in</strong></span>
+                        </a>
+                    </div>
+                </header>
+
+                <nav class="sa-test-site__nav" aria-label="Primary navigation">
+                    <div class="sa-test-site__nav-inner">
+                        <a class="is-current" href="#home">Home</a>
+                        <a href="#catalogue">Learning catalogue</a>
+                        <a href="/web/login">My learning</a>
+                        <a href="#pathways">Learning pathways</a>
+                        <a href="#support">Support</a>
+                    </div>
+                </nav>
+
+                <main id="home">
+                    <section class="sa-test-site__hero">
+                        <div class="sa-test-site__hero-inner">
+                            <div class="sa-test-site__hero-copy">
+                                <span class="sa-test-site__pill"><span/> Continuing professional development</span>
+                                <h2>Clinical learning<br class="d-none d-md-block"/> for better care.</h2>
+                                <p>Access clinical learning, required training and professional development designed for doctors.</p>
+                                <div class="sa-test-site__actions">
+                                    <a class="sa-test-site__button sa-test-site__button--primary" href="#catalogue">Explore courses <span aria-hidden="true">↗</span></a>
+                                    <a class="sa-test-site__button sa-test-site__button--outline" href="/web/login">Sign in to continue</a>
+                                </div>
+                                <div class="sa-test-site__hero-note">
+                                    <span class="sa-test-site__note-icon" aria-hidden="true">✓</span>
+                                    <span>Built for the realities of clinical work.</span>
+                                </div>
+                            </div>
+                            <div class="sa-test-site__hero-panel" aria-label="Learning pathways">
+                                <div class="sa-test-site__panel-topline"><span/> FOR DOCTORS AND CARE TEAMS</div>
+                                <h3>Professional pathways</h3>
+                                <p>Find relevant learning for your role, specialty and development goals.</p>
+                                <ul class="sa-test-site__pathway-list">
+                                    <li><span>01</span><div><strong>Clinical induction</strong><small>Systems, standards and local procedures</small></div><b aria-hidden="true">→</b></li>
+                                    <li><span>02</span><div><strong>Patient safety</strong><small>Quality, risk and clinical standards</small></div><b aria-hidden="true">→</b></li>
+                                    <li><span>03</span><div><strong>Clinical leadership</strong><small>Teamwork and practice improvement</small></div><b aria-hidden="true">→</b></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="catalogue" class="sa-test-site__section sa-test-site__services">
+                        <div class="sa-test-site__section-heading">
+                            <div>
+                                <span class="sa-test-site__eyebrow">Clinical learning catalogue</span>
+                                <h2>Learning for clinical practice</h2>
+                            </div>
+                            <p>Explore development areas relevant to doctors and clinical teams.</p>
+                        </div>
+                        <div class="sa-test-site__service-grid">
+                            <a class="sa-test-site__service-card" href="/web/login">
+                                <span class="sa-test-site__service-icon sa-test-site__service-icon--green" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 10h.01M15 10h.01M9 14h.01M15 14h.01M10 21v-4h4v4"/></svg>
+                                </span>
+                                <strong>Clinical induction</strong>
+                                <span>Become familiar with clinical systems, standards and local procedures.</span>
+                                <span class="sa-test-site__card-arrow" aria-hidden="true">↗</span>
+                            </a>
+                            <a class="sa-test-site__service-card" href="/web/login">
+                                <span class="sa-test-site__service-icon sa-test-site__service-icon--red" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24"><path d="M12 21s-8-4.4-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 6.6-8 11-8 11Z"/><path d="M8 12h8M12 8v8"/></svg>
+                                </span>
+                                <strong>Patient safety and quality</strong>
+                                <span>Build knowledge in safety, quality improvement and clinical governance.</span>
+                                <span class="sa-test-site__card-arrow" aria-hidden="true">↗</span>
+                            </a>
+                            <a class="sa-test-site__service-card" href="/web/login">
+                                <span class="sa-test-site__service-icon sa-test-site__service-icon--blue" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 20h16"/></svg>
+                                </span>
+                                <strong>Digital health systems</strong>
+                                <span>Develop confidence with the digital tools used in clinical work.</span>
+                                <span class="sa-test-site__card-arrow" aria-hidden="true">↗</span>
+                            </a>
+                            <a class="sa-test-site__service-card" href="/web/login">
+                                <span class="sa-test-site__service-icon sa-test-site__service-icon--gold" aria-hidden="true">
+                                    <svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/><circle cx="12" cy="12" r="8.5"/></svg>
+                                </span>
+                                <strong>Clinical leadership</strong>
+                                <span>Strengthen communication, teamwork and practice improvement.</span>
+                                <span class="sa-test-site__card-arrow" aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section id="pathways" class="sa-test-site__updates">
+                        <div class="sa-test-site__updates-inner">
+                            <div>
+                                <span class="sa-test-site__eyebrow">Flexible professional learning</span>
+                                <h2>Learning that fits clinical work</h2>
+                                <p>Choose relevant learning, complete it around your clinical responsibilities, and return to your progress when you need it.</p>
+                            </div>
+                            <a class="sa-test-site__button sa-test-site__button--light" href="/web/login">Sign in to your learning <span aria-hidden="true">→</span></a>
+                            <div class="sa-test-site__update-lines" aria-hidden="true"><span/><span/><span/></div>
+                        </div>
+                    </section>
+
+                    <section id="about" class="sa-test-site__trust-row">
+                        <div class="sa-test-site__trust-item"><span>01</span><strong>Relevant to practice</strong><p>Find learning aligned with your role and clinical development.</p></div>
+                        <div class="sa-test-site__trust-item"><span>02</span><strong>Designed for clinicians</strong><p>Access online learning around the demands of clinical work.</p></div>
+                        <div class="sa-test-site__trust-item"><span>03</span><strong>Continue your progress</strong><p>Return to your learning and build on your development over time.</p></div>
+                    </section>
+                </main>
+
+                <footer id="support" class="sa-test-site__footer">
+                    <div class="sa-test-site__footer-inner">
+                        <div class="sa-test-site__footer-brand">
+                            <img src="/openeducat_sa_test_site/static/src/img/eastern-cape-crest.png" alt="" width="56" height="56"/>
+                            <div><strong>Clinical Learning Portal</strong><span>Eastern Cape Department</span></div>
+                        </div>
+                        <p>Clinical learning and professional development for doctors and care teams.</p>
+                        <a href="/contactus">Learning support <span aria-hidden="true">→</span></a>
+                    </div>
+                    <div class="sa-test-site__footer-bottom">Clinical Learning System <span>•</span> Professional development for doctors</div>
+                </footer>
+            </div>
+        </t>
+    </template>
+
+    <template id="replace_public_homepage" inherit_id="website.homepage" priority="999">
+        <xpath expr="." position="replace">
+            <t t-call="openeducat_sa_test_site.sa_test_homepage"/>
+        </xpath>
+    </template>
+</odoo>

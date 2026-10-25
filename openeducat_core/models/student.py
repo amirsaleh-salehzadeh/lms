@@ -24,11 +24,11 @@ from odoo.exceptions import ValidationError
 
 class OpStudentCourse(models.Model):
     _name = "op.student.course"
-    _description = "Student Course Details"
+    _description = "Doctor Learning Record"
     _inherit = "mail.thread"
     _rec_name = 'student_id'
 
-    student_id = fields.Many2one('op.student', 'Student',
+    student_id = fields.Many2one('op.student', 'Doctor',
                                  ondelete="cascade", tracking=True)
     course_id = fields.Many2one('op.course', 'Course', required=True, tracking=True)
     batch_id = fields.Many2one('op.batch', 'Batch', tracking=True)
@@ -42,25 +42,25 @@ class OpStudentCourse(models.Model):
 
     _unique_name_roll_number_id = models.Constraint(
         'unique(roll_number,course_id,batch_id,student_id)',
-        'Roll Number & Student must be unique per Batch!')
+        'Record Number & Doctor must be unique per Batch!')
     _unique_name_roll_number_course_id = models.Constraint(
         'unique(roll_number,course_id,batch_id)',
         'Roll Number must be unique per Batch!')
     _unique_name_roll_number_student_id = models.Constraint(
         'unique(student_id,course_id,batch_id)',
-        'Student must be unique per Batch!')
+        'Doctor must be unique per Batch!')
 
     @api.model
     def get_import_templates(self):
         return [{
-            'label': _('Import Template for Student Course Details'),
+            'label': _('Import Template for Doctor Learning Records'),
             'template': '/openeducat_core/static/xls/op_student_course.xls'
         }]
 
 
 class OpStudent(models.Model):
     _name = "op.student"
-    _description = "Student"
+    _description = "Doctor"
     _inherit = ['mail.thread', 'mail.activity.mixin']
     _inherits = {"res.partner": "partner_id"}
 
@@ -90,10 +90,10 @@ class OpStudent(models.Model):
     partner_id = fields.Many2one('res.partner', 'Partner',
                                  required=True, ondelete="cascade")
     user_id = fields.Many2one('res.users', 'User', ondelete="cascade")
-    gr_no = fields.Char("Registration Number", size=20)
-    category_id = fields.Many2one('op.category', 'Category')
+    gr_no = fields.Char("Professional Registration Number", size=20)
+    category_id = fields.Many2one('op.category', 'Specialty')
     course_detail_ids = fields.One2many('op.student.course', 'student_id',
-                                        'Course Details',
+                                        'Learning Records',
                                         tracking=True)
     active = fields.Boolean(default=True)
     certificate_number = fields.Char(
@@ -104,7 +104,7 @@ class OpStudent(models.Model):
     email = fields.Char(related='partner_id.email', readonly=False)
 
     _unique_gr_no = models.Constraint('unique(gr_no)',
-                                      'Registration Number must be unique per student!')
+                          'Professional Registration Number must be unique per doctor!')
 
     @api.onchange('first_name', 'middle_name', 'last_name')
     def _onchange_name(self):
@@ -131,7 +131,7 @@ class OpStudent(models.Model):
         return super(OpStudent, self).create(vals_list)
 
     def copy(self, default=None):
-        raise ValidationError(_('You cannot duplicate a student record.'))
+        raise ValidationError(_('You cannot duplicate a doctor record.'))
 
     @api.constrains('birth_date')
     def _check_birthdate(self):
@@ -154,7 +154,7 @@ class OpStudent(models.Model):
     @api.model
     def get_import_templates(self):
         return [{
-            'label': _('Import Template for Students'),
+            'label': _('Import Template for Doctors'),
             'template': '/openeducat_core/static/xls/op_student.xls'
         }]
 

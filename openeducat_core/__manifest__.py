@@ -28,7 +28,7 @@
     'complexity': "easy",
     'author': 'OpenEduCat Inc',
     'website': 'https://www.openeducat.org',
-    'depends': ['board', 'hr', 'web', 'website','contacts'],
+    'depends': ['board', 'hr', 'web', 'website', 'website_slides', 'contacts'],
     'data': [
         'security/op_security.xml',
         'security/ir.model.access.csv',
@@ -50,6 +50,7 @@
         'views/subject_view.xml',
         'views/faculty_view.xml',
         'views/website_assets.xml',
+        'data/elearning_menu_label.xml',
         'views/subject_registration_view.xml',
         'views/res_config_setting_view.xml',
         'views/student_portal_view.xml',
@@ -104,9 +105,13 @@
         ],
         'web.assets_backend': [
             '/openeducat_core/static/src/scss/style.scss',
+            '/openeducat_core/static/src/scss/app_navigation.scss',
+            '/openeducat_core/static/src/js/app_mega_menu.js',
             '/openeducat_core/static/src/js/field_inline_char.js',
             '/openeducat_core/static/src/js/inline_many2one.js',
             '/openeducat_core/static/src/xml/web_client.xml',
+            '/openeducat_core/static/src/xml/app_navigation.xml',
+            '/openeducat_core/static/src/xml/remove_odoo_promotions.xml',
         ],
     },
 }

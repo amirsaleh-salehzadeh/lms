@@ -19,6 +19,12 @@
 .o_MessagingMenu_dropdownMenu.dropdown-menu, .o_mail_systray_dropdown.dropdown-menu {
     top: 100%;
 }
+
+// Remove Odoo account and app-install promotions from the user menu.
+.o_user_menu [data-menu="odoo_account"],
+.o_user_menu [data-menu="install_pwa"] {
+    display: none !important;
+}
 }
 .o_web_client .o_form_view{
     .o_stat_text{
@@ -134,4 +140,79 @@
         border-radius: 8px !important;
         overflow: hidden !important;
     }
+}
+
+// Department eLearning brand palette: South African flag colours.
+:root {
+    --o-brand-primary: #007749;
+    --o-brand-secondary: #002395;
+}
+
+.o_web_client {
+    --o-brand-primary: #007749;
+    --o-brand-secondary: #002395;
+}
+
+.o_main_navbar {
+    background-color: #007749 !important;
+    border-bottom: 3px solid #ffb612;
+    color: #fff !important;
+
+    .o_menu_sections,
+    .o_menu_sections .o_nav_entry,
+    .o_menu_sections .dropdown-toggle {
+        background-color: transparent !important;
+    }
+
+    .o_menu_brand,
+    .o_menu_sections .o_nav_entry,
+    .o_menu_sections .dropdown-toggle,
+    .o_menu_toggle,
+    .o_menu_systray > * {
+        color: #fff !important;
+    }
+
+    .o_menu_sections .o_nav_entry:hover,
+    .o_menu_sections .dropdown-toggle:hover,
+    .o_menu_toggle:hover {
+        background-color: rgba(0, 0, 0, .14) !important;
+    }
+
+    .o_menu_sections .o_nav_entry.active,
+    .o_menu_sections .dropdown-toggle.show {
+        box-shadow: inset 0 -3px #ffb612;
+    }
+}
+
+.o_web_client .btn-primary,
+.o_web_client .o_btn_primary,
+.oe_login .btn-primary {
+    background-color: #007749 !important;
+    border-color: #007749 !important;
+    color: #fff !important;
+}
+
+.o_web_client .btn-primary:hover,
+.o_web_client .o_btn_primary:hover,
+.oe_login .btn-primary:hover {
+    background-color: #005c39 !important;
+    border-color: #005c39 !important;
+}
+
+.o_web_client .form-control:focus,
+.o_web_client .o_input:focus,
+.o_web_client .form-select:focus {
+    border-color: #007749 !important;
+    box-shadow: 0 0 0 .2rem rgba(0, 119, 73, .16) !important;
+}
+
+.o_web_client .form-check-input:checked {
+    background-color: #007749 !important;
+    border-color: #007749 !important;
+}
+
+.o_web_client .dropdown-item:active,
+.o_web_client .dropdown-item.active {
+    background-color: #e7f2eb !important;
+    color: #005c39 !important;
 }

@@ -50,12 +50,25 @@
                    eval="[(4, ref('base.group_system')),(4, ref('openeducat_core.group_op_faculty')),(4, ref('base.group_partner_manager'))]"/>
         </record>
 
+        <record id="privilege_department_staff" model="res.groups.privilege">
+            <field name="name">Department Staff</field>
+            <field name="category_id" ref="module_category_openeducat"/>
+            <field name="sequence">25</field>
+        </record>
+
+        <!-- SIS feature management without granting global Odoo administration. -->
+        <record id="group_op_department_staff_manager" model="res.groups">
+            <field name="name">Department Staff Manager</field>
+            <field name="privilege_id" ref="privilege_department_staff"/>
+            <field name="implied_ids" eval="[(4, ref('openeducat_core.group_op_faculty'))]"/>
+        </record>
+
 
         <record model="ir.rule" id="student_login_rule">
             <field name="name">Student Login rule</field>
             <field name="model_id" ref="model_op_student"/>
             <field name="groups"
-                   eval="[(4, ref('openeducat_core.group_op_back_office_admin'))]"/>
+                   eval="[(4, ref('openeducat_core.group_op_back_office_admin')),(4, ref('openeducat_core.group_op_department_staff_manager'))]"/>
             <field name="domain_force">[('user_id','=',user.id)]</field>
         </record>
 
@@ -79,7 +92,7 @@
             <field name="name">View Faculties</field>
             <field name="model_id" ref="model_op_faculty"/>
             <field name="groups"
-                   eval="[(4, ref('openeducat_core.group_op_back_office_admin'))]"/>
+                   eval="[(4, ref('openeducat_core.group_op_back_office_admin')),(4, ref('openeducat_core.group_op_department_staff_manager'))]"/>
             <field name="domain_force">[(1,'=',1)]</field>
         </record>
 
@@ -87,7 +100,7 @@
             <field name="name">Student Subject Registration Rule</field>
             <field name="model_id" ref="model_op_subject_registration"/>
             <field name="groups"
-                   eval="[(4, ref('openeducat_core.group_op_back_office_admin'))]"/>
+                   eval="[(4, ref('openeducat_core.group_op_back_office_admin')),(4, ref('openeducat_core.group_op_department_staff_manager'))]"/>
             <field name="domain_force">['|', ('student_id.user_id','=',user.id), ('student_id.user_id','in',
                 user.child_ids.ids)]
             </field>
