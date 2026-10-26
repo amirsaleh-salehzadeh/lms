@@ -15,6 +15,7 @@ class IrUiMenu(models.Model):
             'website.menu_website_configuration',
             'hr.menu_hr_root',
             'utm.menu_link_tracker_root',
+            'account.menu_finance',
         )
         menus = self.sudo()
         hidden_ids = set()
